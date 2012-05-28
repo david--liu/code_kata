@@ -17,7 +17,7 @@ namespace code_kata.Bowling.Test
                 return throws.All(x => x != null) || isFirstTwoNonSpare;
             }
         }
-
+         
         public int FirstThrow
         {
             get { return throws[0].Pins; }
