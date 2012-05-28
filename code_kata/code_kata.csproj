@@ -61,6 +61,15 @@
     <Compile Include="CountDown\Test\CountDownTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlGenerator\DeleteStatement.cs" />
+    <Compile Include="SqlGenerator\InsertStatement.cs" />
+    <Compile Include="SqlGenerator\ISqlStatement.cs" />
+    <Compile Include="SqlGenerator\IWhereClause.cs" />
+    <Compile Include="SqlGenerator\SelectStatement.cs" />
+    <Compile Include="SqlGenerator\SQL.cs" />
+    <Compile Include="SqlGenerator\Test\SqlGeneratorTest.cs" />
+    <Compile Include="SqlGenerator\UpdateStatement.cs" />
+    <Compile Include="SqlGenerator\WhereClause.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
