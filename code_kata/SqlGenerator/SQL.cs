@@ -1,5 +1,3 @@
-using code_kata.SqlGenerator.Test;
-
 namespace code_kata.SqlGenerator
 {
     public class SQL
@@ -11,7 +9,7 @@ namespace code_kata.SqlGenerator
 
         public static SelectStatement SelectAll
         {
-            get { return new SelectStatement(new string[]{"*"}); }
+            get { return new SelectStatement(new []{"*"}); }
         }
 
         public static UpdateStatement Update(string table)

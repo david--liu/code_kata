@@ -13,9 +13,9 @@ namespace code_kata.SqlGenerator
             this.columns = columns;
         }
 
-        public SelectStatement From(string table)
+        public SelectStatement From(string newTable)
         {
-            this.table = table;
+            table = newTable;
 
             return this;
         }
