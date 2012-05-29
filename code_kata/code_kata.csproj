@@ -59,6 +59,7 @@
     <Compile Include="Bowling\Test\TensFrameTest.cs" />
     <Compile Include="CountDown\CountDown.cs" />
     <Compile Include="CountDown\Test\CountDownTest.cs" />
+    <Compile Include="EndTrimmer\Test\EndTrimmerTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlGenerator\DeleteStatement.cs" />
