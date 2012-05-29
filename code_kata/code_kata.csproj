@@ -76,6 +76,8 @@
     <Compile Include="TemplateEngine\Test\TemplateEngineTest.cs" />
     <Compile Include="TemplateEngine\Test\VariableMapTest.cs" />
     <Compile Include="TemplateEngine\VariableMap.cs" />
+    <Compile Include="UrlSplitting\Test\UrlSplittingTest.cs" />
+    <Compile Include="UrlSplitting\UrlSplitter.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
