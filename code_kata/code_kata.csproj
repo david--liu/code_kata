@@ -70,6 +70,11 @@
     <Compile Include="SqlGenerator\Test\SqlGeneratorTest.cs" />
     <Compile Include="SqlGenerator\UpdateStatement.cs" />
     <Compile Include="SqlGenerator\WhereClause.cs" />
+    <Compile Include="TemplateEngine\MissingValueException.cs" />
+    <Compile Include="TemplateEngine\TemplateEngine.cs" />
+    <Compile Include="TemplateEngine\Test\TemplateEngineTest.cs" />
+    <Compile Include="TemplateEngine\Test\VariableMapTest.cs" />
+    <Compile Include="TemplateEngine\VariableMap.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
