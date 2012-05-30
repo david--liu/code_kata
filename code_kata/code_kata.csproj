@@ -73,6 +73,8 @@
     <Compile Include="SqlGenerator\Test\SqlGeneratorTest.cs" />
     <Compile Include="SqlGenerator\UpdateStatement.cs" />
     <Compile Include="SqlGenerator\WhereClause.cs" />
+    <Compile Include="StringSet\StringSet.cs" />
+    <Compile Include="StringSet\Test\StringSetTest.cs" />
     <Compile Include="TemplateEngine\MissingValueException.cs" />
     <Compile Include="TemplateEngine\TemplateEngine.cs" />
     <Compile Include="TemplateEngine\Test\TemplateEngineTest.cs" />
