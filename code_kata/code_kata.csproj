@@ -92,6 +92,9 @@
     <Compile Include="TemplateEngine\Test\TemplateEngineTest.cs" />
     <Compile Include="TemplateEngine\Test\VariableMapTest.cs" />
     <Compile Include="TemplateEngine\VariableMap.cs" />
+    <Compile Include="UndoRedoStack\ICommand.cs" />
+    <Compile Include="UndoRedoStack\Test\UndoRedoStackTest.cs" />
+    <Compile Include="UndoRedoStack\UndoRedoStack.cs" />
     <Compile Include="UrlSplitting\Test\UrlSplittingTest.cs" />
     <Compile Include="UrlSplitting\UrlSplitter.cs" />
     <Compile Include="WordWrap\Test\WordWrapperTest.cs" />
