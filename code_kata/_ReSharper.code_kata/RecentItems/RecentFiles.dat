@@ -8,30 +8,15 @@
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:CountDown/d:Test/f:CountDownTest.cs" caret="874" fromTop="31" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/f:SQL.cs" caret="222" fromTop="8" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/f:SelectStatement.cs" caret="1141" fromTop="46" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/d:Test/f:SqlGeneratorTest.cs" caret="1071" fromTop="33" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Queue/f:MyQueue.cs" caret="680" fromTop="31" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Queue/d:Test/f:QueueTest.cs" caret="785" fromTop="29" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/d:Test/f:SqlGeneratorTest.cs" caret="208" fromTop="8" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/d:Test/f:StringSetTest.cs" caret="909" fromTop="32" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/f:StringSet.cs" caret="793" fromTop="38" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/f:ConsoleInteraction.cs" caret="371" fromTop="16" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/d:Test/f:ConsoleInteractionTest.cs" caret="278" fromTop="12" />
   </RecentFiles>
   <RecentEdits>
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Bowling/d:Test/f:BowlingGameTest.cs" caret="3347" fromTop="49" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Bowling/d:Test/f:BowlingGameTest.cs" caret="2509" fromTop="25" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Bowling/d:Test/f:BowlingGameTest.cs" caret="4028" fromTop="20" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Bowling/d:Test/f:BowlingGameTest.cs" caret="4029" fromTop="26" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Bowling/d:Test/f:TensFrame.cs" caret="605" fromTop="25" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Bowling/d:Test/f:TensFrame.cs" caret="473" fromTop="19" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Bowling/d:Test/f:TensFrame.cs" caret="862" fromTop="38" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:CountDown/d:Test/f:CountDownTest.cs" caret="479" fromTop="18" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:CountDown/d:Test/f:CountDownTest.cs" caret="1471" fromTop="37" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:CountDown/f:CountDown.cs" caret="281" fromTop="13" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:CountDown/f:CountDown.cs" caret="413" fromTop="17" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:CountDown/f:CountDown.cs" caret="182" fromTop="7" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:CountDown/d:Test/f:CountDownTest.cs" caret="1113" fromTop="38" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:CountDown/d:Test/f:CountDownTest.cs" caret="894" fromTop="31" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/d:Test/f:SqlGeneratorTest.cs" caret="70" fromTop="4" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/d:Test/f:SqlGeneratorTest.cs" caret="1070" fromTop="18" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/f:SQL.cs" caret="248" fromTop="8" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/d:Test/f:SqlGeneratorTest.cs" caret="1052" fromTop="21" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/f:SQL.cs" caret="222" fromTop="8" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/f:SelectStatement.cs" caret="310" fromTop="9" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/f:SelectStatement.cs" caret="946" fromTop="28" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/d:Test/f:SqlGeneratorTest.cs" caret="605" fromTop="19" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/d:Test/f:SqlGeneratorTest.cs" caret="221" fromTop="8" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/f:SelectStatement.cs" caret="444" fromTop="18" />
@@ -41,5 +26,26 @@
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/d:Test/f:SqlGeneratorTest.cs" caret="428" fromTop="13" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/d:Test/f:SqlGeneratorTest.cs" caret="769" fromTop="23" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SqlGenerator/d:Test/f:SqlGeneratorTest.cs" caret="1033" fromTop="29" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Queue/d:Test/f:QueueTest.cs" caret="799" fromTop="29" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/d:Test/f:StringSetTest.cs" caret="197" fromTop="9" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/d:Test/f:StringSetTest.cs" caret="530" fromTop="20" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/f:StringSet.cs" caret="482" fromTop="10" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/d:Test/f:StringSetTest.cs" caret="1056" fromTop="39" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/d:Test/f:StringSetTest.cs" caret="1271" fromTop="44" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/f:StringSet.cs" caret="860" fromTop="30" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/f:StringSet.cs" caret="982" fromTop="26" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/d:Test/f:StringSetTest.cs" caret="1366" fromTop="50" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/d:Test/f:StringSetTest.cs" caret="2834" fromTop="47" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/f:StringSet.cs" caret="394" fromTop="16" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/f:StringSet.cs" caret="207" fromTop="8" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/d:Test/f:StringSetTest.cs" caret="2421" fromTop="45" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/d:Test/f:StringSetTest.cs" caret="2506" fromTop="49" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/f:StringSet.cs" caret="1351" fromTop="49" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/d:Test/f:StringSetTest.cs" caret="2698" fromTop="42" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:StringSet/d:Test/f:StringSetTest.cs" caret="941" fromTop="32" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/f:ConsoleInteraction.cs" caret="456" fromTop="9" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/f:ConsoleInteraction.cs" caret="122" fromTop="5" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/d:Test/f:ConsoleInteractionTest.cs" caret="438" fromTop="15" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/f:ConsoleInteraction.cs" caret="353" fromTop="13" />
   </RecentEdits>
 </RecentFiles>
