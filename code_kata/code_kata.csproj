@@ -78,6 +78,8 @@
     <Compile Include="TemplateEngine\VariableMap.cs" />
     <Compile Include="UrlSplitting\Test\UrlSplittingTest.cs" />
     <Compile Include="UrlSplitting\UrlSplitter.cs" />
+    <Compile Include="WordWrap\Test\WordWrapperTest.cs" />
+    <Compile Include="WordWrap\WordWrapper.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
