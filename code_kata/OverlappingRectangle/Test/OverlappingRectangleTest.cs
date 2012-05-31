@@ -91,7 +91,7 @@ namespace code_kata.OverlappingRectangle.Test
             Assert.IsFalse(rectangle1.IsOverlappedWith(rectangle3));
             Assert.IsFalse(rectangle1.IsOverlappedWith(rectangle4));
             Assert.IsFalse(rectangle1.IsOverlappedWith(rectangle5));
-            
+
         }
 
        [Test]

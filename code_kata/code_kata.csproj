@@ -78,6 +78,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queue\MyQueue.cs" />
     <Compile Include="Queue\Test\QueueTest.cs" />
+    <Compile Include="Range\Range.cs" />
+    <Compile Include="Range\Test\RangeTest.cs" />
     <Compile Include="SqlGenerator\DeleteStatement.cs" />
     <Compile Include="SqlGenerator\InsertStatement.cs" />
     <Compile Include="SqlGenerator\ISqlStatement.cs" />
