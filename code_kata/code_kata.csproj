@@ -72,6 +72,8 @@
     <Compile Include="Line2d\Test\Line2dTest.cs" />
     <Compile Include="MagnetoEffect\MagnetoEffect.cs" />
     <Compile Include="MagnetoEffect\Test\MagnetoEffectTest.cs" />
+    <Compile Include="OverlappingRectangle\OverlappingRectangle.cs" />
+    <Compile Include="OverlappingRectangle\Test\OverlappingRectangleTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queue\MyQueue.cs" />
