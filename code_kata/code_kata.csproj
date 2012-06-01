@@ -97,6 +97,8 @@
     <Compile Include="TemplateEngine\Test\TemplateEngineTest.cs" />
     <Compile Include="TemplateEngine\Test\VariableMapTest.cs" />
     <Compile Include="TemplateEngine\VariableMap.cs" />
+    <Compile Include="TicTacToe\Test\TicTacToeTest.cs" />
+    <Compile Include="TicTacToe\TicTacToe.cs" />
     <Compile Include="UndoRedoStack\ICommand.cs" />
     <Compile Include="UndoRedoStack\Test\UndoRedoStackTest.cs" />
     <Compile Include="UndoRedoStack\UndoRedoStack.cs" />
