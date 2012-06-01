@@ -31,6 +31,9 @@ namespace ConsoleApplication1
                 try
                 {
                     game.Mark(Convert.ToInt32(strings[0]), Convert.ToInt32(strings[1]));
+
+                    game.RandomMark();
+
                     game.Print(" | ");
                 }
                 catch (Exception e)

@@ -27,6 +27,7 @@ namespace code_kata.TicTacToe.Test
         public void Mark_ShouldWitnIn3X3()
         {
             var game = new TicTacToe();
+            Assert.IsFalse(game.CanMark(4, 0));
             game.Mark(4, 0);
         }
 
@@ -36,6 +37,8 @@ namespace code_kata.TicTacToe.Test
         {
             var game = new TicTacToe();
             game.Mark(1, 1);
+
+            Assert.IsFalse(game.CanMark(1, 1));
             game.Mark(1, 1);
         }
 
@@ -138,7 +141,7 @@ namespace code_kata.TicTacToe.Test
                 game.Mark(3, 1); //O
 
                 Assert.IsTrue(game.IsGameOver());
-
+                Assert.IsFalse(game.CanMark(3, 2));
                 game.Mark(3, 2);
             }
         }

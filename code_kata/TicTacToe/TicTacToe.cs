@@ -38,9 +38,13 @@ namespace code_kata.TicTacToe
             this.printMessage = printMessage;
         }
 
+        public bool CanMark(int row, int column)
+        {
+            return row > 0 && row <= 3 && column > 0 && column <= 3 && board[row - 1][column - 1].Symbol == null && !IsGameOver();
+        }
         public void Mark(int row, int column)
         {
-            if (!(row > 0 && row <= 3 && column > 0 && column <= 3) || board[row - 1][column - 1].Symbol != null || IsGameOver())
+            if(!CanMark(row, column))
                 throw new NotSupportedException();
 
             currentSymbol = currentSymbol == "X" ? "O" : "X";
@@ -142,6 +146,15 @@ namespace code_kata.TicTacToe
         public bool IsGameDraw()
         {
             return AllStepsTaken() && !IsWinner("X") && !IsWinner("O");
+        }
+
+        public void RandomMark()
+        {
+            currentSymbol = currentSymbol == "X" ? "O" : "X";
+            var steps = board.SelectMany(x => x).Where(x => x.Symbol == null).ToList();
+
+            steps[new Random(2).Next(0, steps.Count - 1)].Symbol = currentSymbol;
+
         }
     }
 
