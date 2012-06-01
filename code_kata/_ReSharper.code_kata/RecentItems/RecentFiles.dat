@@ -1,51 +1,11 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/f:ConsoleInteraction.cs" caret="1201" fromTop="35" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/f:IConsole.cs" caret="67" fromTop="2" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/f:MyConsole.cs" caret="708" fromTop="31" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/d:Test/f:ConsoleInteractionTest.cs" caret="667" fromTop="21" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Line2d/d:Test/f:Line2dTest.cs" caret="371" fromTop="14" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Line2d/f:Line2d.cs" caret="419" fromTop="18" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:MagnetoEffect/d:Test/f:MagnetoEffectTest.cs" caret="508" fromTop="16" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:MagnetoEffect/f:MagnetoEffect.cs" caret="537" fromTop="23" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:UndoRedoStack/f:ICommand.cs" caret="116" fromTop="5" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:UndoRedoStack/d:Test/f:UndoRedoStackTest.cs" caret="1370" fromTop="27" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:UndoRedoStack/f:UndoRedoStack.cs" caret="923" fromTop="25" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/d:Test/f:OverlappingRectangleTest.cs" caret="4087" fromTop="26" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/f:OverlappingRectangle.cs" caret="1952" fromTop="32" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/d:Test/f:RangeTest.cs" caret="1385" fromTop="24" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="2256" fromTop="39" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:RomanNumberConverter/d:Test/f:RomanNumberConverterTest.cs" caret="342" fromTop="13" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:RomanNumberConverter/f:RomanNumberConverter.cs" caret="119" fromTop="4" />
   </RecentFiles>
   <RecentEdits>
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/d:Test/f:OverlappingRectangleTest.cs" caret="3331" fromTop="55" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/f:OverlappingRectangle.cs" caret="1730" fromTop="35" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/d:Test/f:OverlappingRectangleTest.cs" caret="2429" fromTop="24" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/d:Test/f:OverlappingRectangleTest.cs" caret="3292" fromTop="40" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/f:OverlappingRectangle.cs" caret="1248" fromTop="26" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/d:Test/f:OverlappingRectangleTest.cs" caret="4766" fromTop="49" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/d:Test/f:OverlappingRectangleTest.cs" caret="4680" fromTop="45" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/d:Test/f:OverlappingRectangleTest.cs" caret="4428" fromTop="39" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/d:Test/f:OverlappingRectangleTest.cs" caret="4087" fromTop="26" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/d:Test/f:OverlappingRectangleTest.cs" caret="4087" fromTop="26" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:OverlappingRectangle/f:OverlappingRectangle.cs" caret="1952" fromTop="32" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/d:Test/f:RangeTest.cs" caret="1385" fromTop="12" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/d:Test/f:RangeTest.cs" caret="408" fromTop="9" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/d:Test/f:RangeTest.cs" caret="337" fromTop="10" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/d:Test/f:RangeTest.cs" caret="201" fromTop="9" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="650" fromTop="20" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="311" fromTop="11" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="650" fromTop="24" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="650" fromTop="23" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="516" fromTop="17" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="84" fromTop="4" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="1266" fromTop="37" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/d:Test/f:RangeTest.cs" caret="1320" fromTop="42" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="2048" fromTop="24" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="2048" fromTop="33" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="1045" fromTop="10" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="2032" fromTop="44" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="2045" fromTop="35" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="1777" fromTop="18" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:Range/f:Range.cs" caret="2235" fromTop="26" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:RomanNumberConverter/d:Test/f:RomanNumberConverterTest.cs" caret="369" fromTop="13" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:RomanNumberConverter/d:Test/f:RomanNumberConverterTest.cs" caret="370" fromTop="13" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:RomanNumberConverter/f:RomanNumberConverter.cs" caret="119" fromTop="4" />
   </RecentEdits>
 </RecentFiles>
