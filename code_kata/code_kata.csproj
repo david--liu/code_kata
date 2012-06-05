@@ -80,6 +80,9 @@
     <Compile Include="Queue\Test\QueueTest.cs" />
     <Compile Include="Range\Range.cs" />
     <Compile Include="Range\Test\RangeTest.cs" />
+    <Compile Include="RefreshingCache\IService.cs" />
+    <Compile Include="RefreshingCache\RefreshingCache.cs" />
+    <Compile Include="RefreshingCache\Test\RefreshingCacheTest.cs" />
     <Compile Include="RomanNumberConverter\RomanNumberConverter.cs" />
     <Compile Include="SqlGenerator\DeleteStatement.cs" />
     <Compile Include="SqlGenerator\InsertStatement.cs" />
