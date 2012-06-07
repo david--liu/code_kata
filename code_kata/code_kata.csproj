@@ -35,6 +35,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="developwithpassion.specifications">
+      <HintPath>lib\developwithpassion.specifications.dll</HintPath>
+    </Reference>
+    <Reference Include="developwithpassion.specifications.rhinomocks">
+      <HintPath>lib\developwithpassion.specifications.rhinomocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Machine.Fakes">
+      <HintPath>lib\Machine.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="Machine.Fakes.Adapters.RhinoMocks">
+      <HintPath>lib\Machine.Fakes.Adapters.RhinoMocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Machine.Specifications">
+      <HintPath>lib\Machine.Specifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Machine.Specifications.Clr4">
+      <HintPath>lib\Machine.Specifications.Clr4.dll</HintPath>
+    </Reference>
+    <Reference Include="Machine.Specifications.TDNetRunner">
+      <HintPath>lib\Machine.Specifications.TDNetRunner.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>lib\nunit.framework.dll</HintPath>
     </Reference>
@@ -68,6 +89,8 @@
     <Compile Include="CountDown\CountDown.cs" />
     <Compile Include="CountDown\Test\CountDownTest.cs" />
     <Compile Include="EndTrimmer\Test\EndTrimmerTest.cs" />
+    <Compile Include="ExpressionTree\IExpressionConverter.cs" />
+    <Compile Include="ExpressionTree\Test\ExpressionConverterSpecs.cs" />
     <Compile Include="Line2d\Line2d.cs" />
     <Compile Include="Line2d\Test\Line2dTest.cs" />
     <Compile Include="MagnetoEffect\MagnetoEffect.cs" />
@@ -84,6 +107,8 @@
     <Compile Include="RefreshingCache\RefreshingCache.cs" />
     <Compile Include="RefreshingCache\Test\RefreshingCacheTest.cs" />
     <Compile Include="RomanNumberConverter\RomanNumberConverter.cs" />
+    <Compile Include="SpreadSheet\Sheet.cs" />
+    <Compile Include="SpreadSheet\Test\SpreadSheetTest.cs" />
     <Compile Include="SqlGenerator\DeleteStatement.cs" />
     <Compile Include="SqlGenerator\InsertStatement.cs" />
     <Compile Include="SqlGenerator\ISqlStatement.cs" />
@@ -110,6 +135,8 @@
     <Compile Include="WordWrap\Test\WordWrapperTest.cs" />
     <Compile Include="WordWrap\WordWrapper.cs" />
     <Compile Include="RomanNumberConverter\Test\RomanNumberConverterTest.cs" />
+    <Compile Include="ExpressionTree\BinaryNode.cs" />
+    <Compile Include="ExpressionTree\ExpressionConverter.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
