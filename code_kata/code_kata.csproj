@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{58718776-CFE8-4F47-A289-F6969700DE40}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>code_kata</RootNamespace>
     <AssemblyName>code_kata</AssemblyName>
@@ -33,6 +33,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="developwithpassion.specifications">
@@ -88,6 +91,26 @@
     <Compile Include="ConsoleInteraction\Test\ConsoleInteractionTest.cs" />
     <Compile Include="CountDown\CountDown.cs" />
     <Compile Include="CountDown\Test\CountDownTest.cs" />
+    <Compile Include="DesignPatternsC#30\Adapter\AdapterPattern.cs" />
+    <Compile Include="DesignPatternsC#30\Adapter\Test\AdapterPatternTest.cs" />
+    <Compile Include="DesignPatternsC#30\Interpreter\AttributeCommand.cs" />
+    <Compile Include="DesignPatternsC#30\Interpreter\MainClass.cs" />
+    <Compile Include="DesignPatternsC#30\Interpreter\Command.cs" />
+    <Compile Include="DesignPatternsC#30\Interpreter\ElementCommand.cs" />
+    <Compile Include="DesignPatternsC#30\Interpreter\EndElementCommand.cs" />
+    <Compile Include="DesignPatternsC#30\Interpreter\Interpreter.cs" />
+    <Compile Include="DesignPatternsC#30\Interpreter\Mirror.cs" />
+    <Compile Include="DesignPatternsC#30\Interpreter\Test\InterpreterPatternTest.cs" />
+    <Compile Include="DesignPatternsC#30\Iterator\Node.cs" />
+    <Compile Include="DesignPatternsC#30\Iterator\Person.cs" />
+    <Compile Include="DesignPatternsC#30\Iterator\Test\IteratorPatternTest.cs" />
+    <Compile Include="DesignPatternsC#30\Iterator\Tree.cs" />
+    <Compile Include="DesignPatternsC#30\Observer\ObserverPattern.cs" />
+    <Compile Include="DesignPatternsC#30\Prototype\Composite.cs" />
+    <Compile Include="DesignPatternsC#30\Prototype\Component.cs" />
+    <Compile Include="DesignPatternsC#30\Prototype\IComponent.cs" />
+    <Compile Include="DesignPatternsC#30\Prototype\IPrototype.cs" />
+    <Compile Include="DesignPatternsC#30\Visitor\VisitorPattern.cs" />
     <Compile Include="EndTrimmer\Test\EndTrimmerTest.cs" />
     <Compile Include="ExpressionTree\IExpressionConverter.cs" />
     <Compile Include="ExpressionTree\Test\ExpressionConverterSpecs.cs" />
@@ -97,7 +120,6 @@
     <Compile Include="MagnetoEffect\Test\MagnetoEffectTest.cs" />
     <Compile Include="OverlappingRectangle\OverlappingRectangle.cs" />
     <Compile Include="OverlappingRectangle\Test\OverlappingRectangleTest.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queue\MyQueue.cs" />
     <Compile Include="Queue\Test\QueueTest.cs" />
@@ -158,7 +180,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DesignPatternsC#30\Observer\Test\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
