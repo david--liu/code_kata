@@ -66,7 +66,7 @@ class CountVisitor : IVisitor
 }
 
 // Client
-class Client
+class VisitorClient
 {
 
     static void Main()

@@ -1,4 +1,5 @@
 ﻿using System;
+using NUnit.Framework;
 
 // Interpreter Pattern Example           Judith Bishop  Oct 2007
 // Sets up an object structure and interprets it with given data
@@ -26,7 +27,7 @@ static class ElementExtensions
     {
         if (element is Lab) Lab += element.Weight;
         else if
-             (element is Test) Test += element.Weight;
+             (element is Test1) Test += element.Weight;
         else if ((element is Midterm || element is Exam)
              && element.Part == null) Test += element.Weight;
         if (element.Part != null) Summarize(element.Part.Next);
@@ -35,9 +36,9 @@ static class ElementExtensions
 
     public static int[] values;
     public static int n;
-    public static Context context;
+    public static InterpreterContext context;
 
-    public static void SetUp(this Element element, Context c, int[] v)
+    public static void SetUp(this Element element, InterpreterContext c, int[] v)
     {
         context = c;
         context.Output = 0;
@@ -48,7 +49,7 @@ static class ElementExtensions
     public static void Interpreter(this Element element)
     {
 
-        if (element is Lab || element is Test)
+        if (element is Lab || element is Test1)
         {
             context.Output += values[n] * element.Weight;
             n++;
@@ -77,7 +78,7 @@ public class Element
         return Weight + "%";
     }
 
-    int GetNumber(Context context)
+    int GetNumber(InterpreterContext context)
     {
         int atSpace = context.Input.IndexOf(' ');
         int number = Int32.Parse(context.Input.Substring(1, atSpace));
@@ -85,7 +86,7 @@ public class Element
         return number;
     }
 
-    public void Parse(Context context)
+    public void Parse(InterpreterContext context)
     {
         string starters = "LTME";
         if (context.Input.Length > 0 && starters.IndexOf(context.Input[0]) >= 0)
@@ -96,7 +97,7 @@ public class Element
                     Next = new Lab();
                     break;
                 case 'T':
-                    Next = new Test();
+                    Next = new Test1();
                     break;
                 case 'M':
                     Next = new Midterm();
@@ -127,7 +128,7 @@ public class Element
 class Course : Element
 {
     public string Name { get; set; }
-    public Course(Context context)
+    public Course(InterpreterContext context)
     {
         Name = context.Input.Substring(0, 6);
         context.Input = context.Input.Substring(7);
@@ -142,7 +143,7 @@ class Lab : Element
 {
 }
 
-class Test : Element
+class Test1 : Element
 {
 }
 
@@ -154,12 +155,12 @@ class Exam : Element
 {
 }
 
-public class Context
+public class InterpreterContext
 {
     public string Input { get; set; }
     public double Output { get; set; }
 
-    public Context(string c)
+    public InterpreterContext(string c)
     {
         Input = c;
         Output = 0;
@@ -177,19 +178,21 @@ static class IntArrayExtension
     }
 }
 
+[TestFixture]
 class InterpreterPattern
 {
-    static void Main()
+    [Test]
+    public void Main()
     {
         string rules = "COS333 L2 L2 L2 L2 L2 M25 (L40 T60 ) L10 E55 (L28 T73 ) ";
         int[][] values = new[] {new [] {80,0,100,100,85,51,52,50,57,56},
                                new [] {87,95,100,100,77,70,99,100,75,94},
                                new [] {0,55,100,65,55,75,73,74,71,72}};
 
-        Context context;
+        InterpreterContext context;
         Console.WriteLine(rules + "\n");
 
-        context = new Context(rules);
+        context = new InterpreterContext(rules);
         Element course = new Course(context);
         course.Parse(context);
 

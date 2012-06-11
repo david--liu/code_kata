@@ -1,13 +1,61 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="5A886596-5D84-43F8-BFE7-F343A50B3968/f:Program.cs" caret="1027" fromTop="37" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/d:Test/f:ConsoleInteractionTest.cs" caret="0" fromTop="0" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ExpressionTree/d:Test/f:ExpressionConverterSpecs.cs" caret="4000" fromTop="22" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Interpreter/f:MainClass.cs" caret="477" fromTop="17" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Proxy/f:ProxyPattern.cs" caret="2609" fromTop="42" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Bridge/f:BridgePattern.cs" caret="754" fromTop="18" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Prototype/f:IComponent.cs" caret="241" fromTop="8" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Prototype/f:Component.cs" caret="13" fromTop="0" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Decorator/d:Theory/f:DecoratorPattern.cs" caret="1444" fromTop="21" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Flyweight/f:FlyweightClient.cs" caret="2507" fromTop="42" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Flyweight/f:FlyweightPattern.cs" caret="1187" fromTop="27" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Adapter/f:AdapterPattern.cs" caret="13" fromTop="0" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Composite/f:CompositePattern.cs" caret="4" fromTop="0" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Facade/f:FacadePattern.cs" caret="944" fromTop="3" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Prototype/d:Theory/f:PrototypeTheory.cs" caret="425" fromTop="18" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Singleton/f:SingletonPattern.cs" caret="353" fromTop="15" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:FactoryMethod/f:FactoryMethodPattern.cs" caret="990" fromTop="17" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:AbstractFactory/f:AbstractFactoryPattern.cs" caret="2985" fromTop="33" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:SpreadSheet/f:Sheet.cs" caret="759" fromTop="15" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Strategy/f:StrategyPattern.cs" caret="191" fromTop="7" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:State/f:StatePattern.cs" caret="1938" fromTop="24" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:TemplateMethod/f:TemplateMethodPattern.cs" caret="1029" fromTop="60" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:ChainofR/f:ChainOfResponsibilities.cs" caret="782" fromTop="30" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Command/f:CommandPattern.cs" caret="974" fromTop="33" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Iterator/f:IteratorTheory.cs" caret="654" fromTop="25" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Interpreter/f:Interpreter.cs" caret="4101" fromTop="21" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Mediator/f:MediatorPattern.cs" caret="834" fromTop="29" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="670" fromTop="26" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Memento/f:MementoPattern.cs" caret="279" fromTop="10" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Adapter/d:Theory/f:AdapterPattern.cs" caret="719" fromTop="21" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Visitor/f:VisitorPattern.cs" caret="1221" fromTop="21" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Builder/f:BuilderPatternTheory.cs" caret="403" fromTop="14" />
   </RecentFiles>
   <RecentEdits>
-    <File id="5A886596-5D84-43F8-BFE7-F343A50B3968/f:Program.cs" caret="966" fromTop="34" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ExpressionTree/d:Test/f:ExpressionConverterSpecs.cs" caret="4477" fromTop="47" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ExpressionTree/d:Test/f:ExpressionConverterSpecs.cs" caret="4090" fromTop="36" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ExpressionTree/d:Test/f:ExpressionConverterSpecs.cs" caret="4236" fromTop="40" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:ChainofR/f:ChainOfResponsibilities.cs" caret="825" fromTop="30" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Command/f:CommandPattern.cs" caret="1139" fromTop="49" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Command/f:CommandPattern.cs" caret="53" fromTop="3" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Command/f:CommandPattern.cs" caret="1018" fromTop="33" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Iterator/f:IteratorTheory.cs" caret="922" fromTop="30" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Iterator/f:IteratorTheory.cs" caret="80" fromTop="4" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Iterator/f:IteratorTheory.cs" caret="699" fromTop="25" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Mediator/f:MediatorPattern.cs" caret="2819" fromTop="95" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Mediator/f:MediatorPattern.cs" caret="2197" fromTop="28" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Mediator/f:MediatorPattern.cs" caret="53" fromTop="3" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Interpreter/f:Interpreter.cs" caret="4101" fromTop="21" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Mediator/f:MediatorPattern.cs" caret="885" fromTop="29" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="0" fromTop="0" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="2242" fromTop="37" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="1697" fromTop="38" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="105" fromTop="5" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="670" fromTop="26" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="713" fromTop="26" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Memento/f:MementoPattern.cs" caret="0" fromTop="0" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Memento/f:MementoPattern.cs" caret="2857" fromTop="106" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Memento/f:MementoPattern.cs" caret="961" fromTop="8" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Memento/f:MementoPattern.cs" caret="279" fromTop="10" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Memento/f:MementoPattern.cs" caret="322" fromTop="10" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Adapter/d:Theory/f:AdapterPattern.cs" caret="719" fromTop="21" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Builder/f:BuilderPatternTheory.cs" caret="204" fromTop="7" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Builder/f:BuilderPatternTheory.cs" caret="810" fromTop="40" />
   </RecentEdits>
 </RecentFiles>
