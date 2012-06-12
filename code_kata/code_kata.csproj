@@ -143,6 +143,10 @@
     <Compile Include="MagnetoEffect\Test\MagnetoEffectTest.cs" />
     <Compile Include="OverlappingRectangle\OverlappingRectangle.cs" />
     <Compile Include="OverlappingRectangle\Test\OverlappingRectangleTest.cs" />
+    <Compile Include="ProjectEuler\Problem1.cs" />
+    <Compile Include="ProjectEuler\Problem2.cs" />
+    <Compile Include="ProjectEuler\Problem3.cs" />
+    <Compile Include="ProjectEuler\Problem4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queue\MyQueue.cs" />
     <Compile Include="Queue\Test\QueueTest.cs" />
