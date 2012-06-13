@@ -1,9 +1,5 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Interpreter/f:MainClass.cs" caret="477" fromTop="17" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Proxy/f:ProxyPattern.cs" caret="2609" fromTop="42" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Bridge/f:BridgePattern.cs" caret="754" fromTop="18" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Prototype/f:IComponent.cs" caret="241" fromTop="8" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Prototype/f:Component.cs" caret="13" fromTop="0" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Decorator/d:Theory/f:DecoratorPattern.cs" caret="1444" fromTop="21" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Flyweight/f:FlyweightClient.cs" caret="2507" fromTop="42" />
@@ -29,33 +25,42 @@
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Adapter/d:Theory/f:AdapterPattern.cs" caret="719" fromTop="21" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Visitor/f:VisitorPattern.cs" caret="1221" fromTop="21" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Builder/f:BuilderPatternTheory.cs" caret="403" fromTop="14" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ExpressionTree/d:Test/f:ExpressionConverterSpecs.cs" caret="213" fromTop="6" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem1.cs" caret="615" fromTop="23" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem2.cs" caret="1665" fromTop="42" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem3.cs" caret="307" fromTop="0" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem4.cs" caret="1045" fromTop="33" />
   </RecentFiles>
   <RecentEdits>
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:ChainofR/f:ChainOfResponsibilities.cs" caret="825" fromTop="30" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Command/f:CommandPattern.cs" caret="1139" fromTop="49" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Command/f:CommandPattern.cs" caret="53" fromTop="3" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Command/f:CommandPattern.cs" caret="1018" fromTop="33" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Iterator/f:IteratorTheory.cs" caret="922" fromTop="30" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Iterator/f:IteratorTheory.cs" caret="80" fromTop="4" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Iterator/f:IteratorTheory.cs" caret="699" fromTop="25" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Mediator/f:MediatorPattern.cs" caret="2819" fromTop="95" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Mediator/f:MediatorPattern.cs" caret="2197" fromTop="28" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Mediator/f:MediatorPattern.cs" caret="53" fromTop="3" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Interpreter/f:Interpreter.cs" caret="4101" fromTop="21" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Mediator/f:MediatorPattern.cs" caret="885" fromTop="29" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="0" fromTop="0" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="2242" fromTop="37" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="1697" fromTop="38" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="105" fromTop="5" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="670" fromTop="26" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Observer/f:ObserverPatternTheory.cs" caret="713" fromTop="26" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Memento/f:MementoPattern.cs" caret="0" fromTop="0" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Memento/f:MementoPattern.cs" caret="2857" fromTop="106" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Memento/f:MementoPattern.cs" caret="961" fromTop="8" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Memento/f:MementoPattern.cs" caret="279" fromTop="10" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Memento/f:MementoPattern.cs" caret="322" fromTop="10" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Adapter/d:Theory/f:AdapterPattern.cs" caret="719" fromTop="21" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Builder/f:BuilderPatternTheory.cs" caret="204" fromTop="7" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Builder/f:BuilderPatternTheory.cs" caret="810" fromTop="40" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:DesignPatternsC#30/d:Builder/f:BuilderPatternTheory.cs" caret="407" fromTop="14" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem1.cs" caret="750" fromTop="28" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem1.cs" caret="222" fromTop="8" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem1.cs" caret="488" fromTop="20" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem2.cs" caret="313" fromTop="5" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem2.cs" caret="937" fromTop="27" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem2.cs" caret="935" fromTop="23" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem2.cs" caret="1648" fromTop="42" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem3.cs" caret="271" fromTop="6" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem3.cs" caret="837" fromTop="19" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem3.cs" caret="902" fromTop="26" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem3.cs" caret="902" fromTop="30" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem3.cs" caret="1194" fromTop="36" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem3.cs" caret="902" fromTop="22" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem3.cs" caret="1144" fromTop="31" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem3.cs" caret="709" fromTop="8" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem3.cs" caret="1423" fromTop="21" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem4.cs" caret="1372" fromTop="30" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem4.cs" caret="1301" fromTop="38" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem4.cs" caret="565" fromTop="20" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem4.cs" caret="1163" fromTop="38" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem4.cs" caret="182" fromTop="7" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem4.cs" caret="802" fromTop="27" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem4.cs" caret="1045" fromTop="33" />
   </RecentEdits>
 </RecentFiles>
