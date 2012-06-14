@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Machine.Specifications;
 using developwithpassion.specifications.rhinomocks;
 using developwithpassion.specifications.extensions;
+using System.Linq;
 
 namespace code_kata.ProjectEuler
 {
@@ -24,7 +25,7 @@ namespace code_kata.ProjectEuler
         }
     }
 
-    class PrimeNumber
+   public class PrimeNumber
     {
         public static long GetPrimeNumberOfSequence(int sequence)
         {
@@ -40,6 +41,21 @@ namespace code_kata.ProjectEuler
                 }
             }
             return map[sequence - 1];
+        }
+        public static long GetSumOfPrimeNumberBelow(int max)
+        {
+            var map = new List<long>();
+            long i = 2;
+            map.Add(i);
+            while (i < max)
+            {
+                ++i;
+                if(!map.Exists(x => i % x ==0))
+                {
+                    map.Add(i);
+                }
+            }
+            return map.Sum(x => x);
         }
     }
 }

@@ -144,6 +144,9 @@
     <Compile Include="OverlappingRectangle\OverlappingRectangle.cs" />
     <Compile Include="OverlappingRectangle\Test\OverlappingRectangleTest.cs" />
     <Compile Include="ProjectEuler\Problem1.cs" />
+    <Compile Include="ProjectEuler\Problem10.cs" />
+    <Compile Include="ProjectEuler\Problem11.cs" />
+    <Compile Include="ProjectEuler\Problem12.cs" />
     <Compile Include="ProjectEuler\Problem2.cs" />
     <Compile Include="ProjectEuler\Problem3.cs" />
     <Compile Include="ProjectEuler\Problem4.cs" />
@@ -151,6 +154,7 @@
     <Compile Include="ProjectEuler\Problem6.cs" />
     <Compile Include="ProjectEuler\Problem7.cs" />
     <Compile Include="ProjectEuler\Problem8.cs" />
+    <Compile Include="ProjectEuler\Problem9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queue\MyQueue.cs" />
     <Compile Include="Queue\Test\QueueTest.cs" />
