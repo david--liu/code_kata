@@ -153,6 +153,7 @@
     <Compile Include="ProjectEuler\Problem16.cs" />
     <Compile Include="ProjectEuler\Problem17.cs" />
     <Compile Include="ProjectEuler\Problem18.cs" />
+    <Compile Include="ProjectEuler\Problem19.cs" />
     <Compile Include="ProjectEuler\Problem2.cs" />
     <Compile Include="ProjectEuler\Problem3.cs" />
     <Compile Include="ProjectEuler\Problem4.cs" />
