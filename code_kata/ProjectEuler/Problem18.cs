@@ -32,7 +32,7 @@ namespace code_kata.ProjectEuler
         {
             It first_observation = () =>
             {
-                var node = BinaryNode.Parse(value);
+                var node = new BinaryNode(BinaryNode.Parse(value), 0, 0);
                 Console.Out.WriteLine(node.MaxSum());
             };
 
@@ -67,7 +67,7 @@ namespace code_kata.ProjectEuler
                 return Value + (leftMax > rightMax ? leftMax : rightMax);
             }
 
-            public static BinaryNode Parse(string value)
+            public static int[,] Parse(string value)
             {
                 var rows  = value.Split('|');
                 int i = 0;
@@ -86,7 +86,7 @@ namespace code_kata.ProjectEuler
                     ++i;
                 }
 
-                return new BinaryNode(array,0,0);
+                return array;
 
 
             }

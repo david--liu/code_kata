@@ -118,10 +118,30 @@ namespace code_kata.ProjectEuler
         {
             It first_observation = () =>
             {
-                var node = Problem18.BinaryNode.Parse(value);
-                Console.Out.WriteLine(node.MaxSum());
- 
+                var arr = Problem18.BinaryNode.Parse(value);
+
+                
+
+                Console.Out.WriteLine(GetValue(arr));
             };
+
+            static int GetValue(int[,] arr)
+            {
+                var rowMax = arr.GetUpperBound(0);
+                var colMax = arr.GetUpperBound(1);
+                for (int r = rowMax; r > 0; r--)
+                {
+                    for (int c = 0; c < colMax; c++)
+                    {
+                        if (arr[r, c] > arr[r, c + 1])
+                            arr[r - 1, c] += arr[r, c];
+                        else
+                            arr[r - 1, c] += arr[r, c + 1];
+                    }
+                }
+
+                return arr[0, 0];
+            }
         }
     }
 }
