@@ -143,6 +143,7 @@
     <Compile Include="MagnetoEffect\Test\MagnetoEffectTest.cs" />
     <Compile Include="OverlappingRectangle\OverlappingRectangle.cs" />
     <Compile Include="OverlappingRectangle\Test\OverlappingRectangleTest.cs" />
+    <Compile Include="ProjectEuler\MathUtils.cs" />
     <Compile Include="ProjectEuler\Problem1.cs" />
     <Compile Include="ProjectEuler\Problem10.cs" />
     <Compile Include="ProjectEuler\Problem11.cs" />
@@ -162,6 +163,7 @@
     <Compile Include="ProjectEuler\Problem24.cs" />
     <Compile Include="ProjectEuler\Problem25.cs" />
     <Compile Include="ProjectEuler\Problem26.cs" />
+    <Compile Include="ProjectEuler\Problem27.cs" />
     <Compile Include="ProjectEuler\Problem3.cs" />
     <Compile Include="ProjectEuler\Problem4.cs" />
     <Compile Include="ProjectEuler\Problem5.cs" />
