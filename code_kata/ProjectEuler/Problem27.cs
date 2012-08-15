@@ -19,9 +19,9 @@ namespace code_kata.ProjectEuler
                 int most = 0;
                 int numA = 0;
                 int numB = 0;
-                for (int i = -999; i < 999; i++)
+                for (int i = -999; i <= 999; i++)
                 {
-                    for (int j = -999; j < 999; j++)
+                    for (int j = -999; j <= 999; j++)
                     {
                         var mostPrimes = GetMostPrimes(i, j);
                         if(mostPrimes > most)
