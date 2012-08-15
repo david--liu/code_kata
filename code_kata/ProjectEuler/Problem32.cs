@@ -51,9 +51,9 @@ namespace code_kata.ProjectEuler
         {
             var list = new SortedSet<int>();
 
-            for (int i = 1; i < 9999; i++)
+            for (int i = 1; i < 50; i++)
             {
-                for (int j = 1; j < 9999; j++)
+                for (int j = 1; j < 2000; j++)
                 {
                     if(HasSameDigitOrZero(i, j))
                         continue;
