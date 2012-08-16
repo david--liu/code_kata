@@ -76,29 +76,14 @@ namespace code_kata.ProjectEuler
                 return true;
             var map = new Dictionary<int, int>();
             map.Add(0, 0);
-            int pow = 10;
-            for (int i = 0; i < 5; i++)
+
+            foreach (var digit in MathUtils.ConvertToDigits(x).Concat(MathUtils.ConvertToDigits(y)))
             {
-                if (x > 0)
+                if (map.ContainsKey(digit))
                 {
-                    var a = x - (x/pow)*pow;
-                    if (map.ContainsKey(a))
-                    {
-                        return true;
-                    }
-                    map.Add(a, 0);
-                    x = x/pow;
+                    return true;
                 }
-                if (y > 0)
-                {
-                    var b = y - (y/pow)*pow;
-                    if (map.ContainsKey(b))
-                    {
-                        return true;
-                    }
-                    map.Add(b, 0);
-                    y = y/pow;
-                }
+                
             }
 
             return false;

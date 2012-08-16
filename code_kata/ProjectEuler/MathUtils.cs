@@ -53,5 +53,29 @@ namespace code_kata.ProjectEuler
             return true;
 
         }
+
+        public static int Factorial(int number)
+        {
+            int result = 1;
+            for (int i = 1; i <= number; i++)
+            {
+                result *= i;
+            }
+            return result;
+        }
+
+        public static List<int> ConvertToDigits(int number)
+        {
+            var result = new List<int>();
+            var temp = number;
+            while (temp > 0)
+            {
+                result.Add(temp - (temp / 10) * 10);
+                temp = temp/10;
+            }
+            result.Reverse();
+
+            return result;
+        }
     }
 }
