@@ -17,7 +17,7 @@ namespace code_kata.ProjectEuler
         public class when_observation_name : concern
         {
             It first_observation = () =>
-                Console.Out.WriteLine(BruteForce());
+                Utils.PrintResult(() => BruteForce());
 
         }
         // a < b < c
