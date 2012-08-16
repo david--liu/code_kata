@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using Machine.Specifications;
 using developwithpassion.specifications.rhinomocks;
 
@@ -22,7 +23,11 @@ namespace code_kata.ProjectEuler
         public class when_solving : concern
         {
             It should_get_result = () =>
+            {
+                var stopwatch = Stopwatch.StartNew();
                 Console.Out.WriteLine(BruteForce());
+                Console.Out.WriteLine(stopwatch.ElapsedMilliseconds);
+            };
         }
 
         static int BruteForce()
