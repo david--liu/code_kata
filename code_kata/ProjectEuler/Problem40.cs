@@ -30,7 +30,10 @@ namespace code_kata.ProjectEuler
                 result = Result(result, digits, pointer, 10000);
                 result = Result(result, digits, pointer, 100000);
                 result = Result(result, digits, pointer, 1000000);
+                
                 pointer += digits.Count;
+                if(pointer > 1000000)
+                    break;
             }
             return result;
         }
