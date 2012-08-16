@@ -22,25 +22,27 @@ namespace code_kata.ProjectEuler
         {
             int pointer = 9;
             int result = 1*1;
-            for (int i = 10; i < 500000; i++)
+            int i = 10;
+            while (pointer < 1000000)
             {
                 var digits = MathUtils.ConvertToDigits(i);
-                result = Result(result, digits, pointer, 100);
-                result = Result(result, digits, pointer, 1000);
-                result = Result(result, digits, pointer, 10000);
-                result = Result(result, digits, pointer, 100000);
-                result = Result(result, digits, pointer, 1000000);
+                var count = digits.Count;
+                result = Result(result, digits, pointer, 100, count);
+                result = Result(result, digits, pointer, 1000, count);
+                result = Result(result, digits, pointer, 10000, count);
+                result = Result(result, digits, pointer, 100000, count);
+                result = Result(result, digits, pointer, 1000000, count);
+
                 
-                pointer += digits.Count;
-                if(pointer > 1000000)
-                    break;
+                pointer += count;
+                i++;
             }
             return result;
         }
 
-        static int Result(int result, List<int> digits, int pointer, int number)
+        static int Result(int result, List<int> digits, int pointer, int number, int count)
         {
-            if (pointer < number && (pointer + digits.Count) >= number)
+            if (pointer < number && (pointer + count) >= number)
             {
                 result *= digits[number - pointer - 1];
             }
