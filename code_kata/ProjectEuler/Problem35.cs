@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using Machine.Specifications;
 using developwithpassion.specifications.rhinomocks;
 using developwithpassion.specifications.extensions;
+using System.Linq;
 
 namespace code_kata.ProjectEuler
 {
@@ -20,7 +22,6 @@ namespace code_kata.ProjectEuler
                 List<int> list;
                 IsCicularPrime(97, out list).ShouldBeTrue();
                 IsCicularPrime(197, out list).ShouldBeTrue();
-                IsCicularPrime(2, out list).ShouldBeTrue();
                 IsCicularPrime(87, out list).ShouldBeFalse();
             };
 
@@ -30,7 +31,9 @@ namespace code_kata.ProjectEuler
             };
             It should_get_result = () =>
             {
+                var stopwatch = Stopwatch.StartNew();
                 Console.Out.WriteLine(GetResult(1000000));
+                Console.Out.WriteLine(stopwatch.ElapsedMilliseconds + " ms.");
             };
 
             static int GetResult(int number)
@@ -51,7 +54,7 @@ namespace code_kata.ProjectEuler
                     }
                 }
 
-                return result.Count + 1;
+                return result.Count + 2;
             }
 
 
@@ -66,6 +69,10 @@ namespace code_kata.ProjectEuler
                 list.Add(number);
 
                 var digits = MathUtils.ConvertToDigits(number);
+
+                if (ContainsEvenOrFile(digits))
+                    return false;
+
                 var count = digits.Count;
                 for (int i = 1; i < count; i++)
                 {
@@ -95,6 +102,11 @@ namespace code_kata.ProjectEuler
 
                 }
                 return true;
+            }
+
+            static bool ContainsEvenOrFile(List<int> digits)
+            {
+                return digits.Any(o => o == 5 || o%2 == 0);
             }
         }
     }

@@ -77,5 +77,19 @@ namespace code_kata.ProjectEuler
 
             return result;
         }
+
+        public static int ConvertToNumber(int[] list)
+        {
+            int result = 0;
+            int pow = 1;
+            for (int i = list.Length -1; i >= 0; i--)
+            {
+
+                result += pow*list[i];
+                pow *= 10;
+            }
+
+            return result;
+        }
     }
 }
