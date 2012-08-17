@@ -91,5 +91,15 @@ namespace code_kata.ProjectEuler
 
             return result;
         }
+        public static double ConvertToDouble(int[] list)
+        {
+            double result = 0;
+            for (int i = list.Length -1; i >= 0; i--)
+            {
+                result += Math.Pow(10,list.Length - i -1)*list[i];
+            }
+
+            return result;
+        }
     }
 }

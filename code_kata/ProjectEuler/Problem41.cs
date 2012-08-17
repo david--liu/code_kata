@@ -53,61 +53,63 @@ namespace code_kata.ProjectEuler
             
             return 0;
         }
+
+        class Pandigital
+        {
+            private List<int[]> list = new List<int[]>();
+            public Pandigital(int max)
+            {
+                var digits = new int[max];
+                for (int i = 1; i <= max; i++)
+                {
+                    digits[i - 1] = i;
+                    var item = new int[max];
+                    item[0] = i;
+                    list.Add(item);
+                }
+
+                for (int i = 1; i < max; i++)
+                {
+                    PopulateList(digits, i, max);
+                }
+
+
+
+            }
+
+            void PopulateList(int[] digits, int i, int max)
+            {
+                var tempList = new List<int[]>();
+                foreach (var num in list)
+                {
+                    var ints = from n in digits
+                               where !num.Contains(n)
+                               select n;
+                    foreach (var j in ints)
+                    {
+                        var temp = new int[max];
+                        for (int k = 0; k < i; k++)
+                        {
+                            temp[k] = num[k];
+                        }
+
+                        temp[i] = j;
+
+                        tempList.Add(temp);
+                    }
+                }
+
+                list = tempList;
+            }
+
+            public List<int> List
+            {
+                get { return list.Select(o => MathUtils.ConvertToNumber(o)).ToList(); }
+            }
+        }
+    }
     }
 
     
 
-    class Pandigital
-    {
-        private List<int[]> list = new List<int[]>(); 
-        public Pandigital(int max)
-        {
-            var digits = new int[max];
-            for (int i = 1; i <= max; i++)
-            {
-                digits[i - 1] = i;
-                var item = new int[max];
-                item[0] = i;
-                list.Add(item);
-            }
-
-            for (int i = 1; i < max; i++)
-            {
-                PopulateList(digits, i, max);
-            }
-
-
-
-        }
-
-        void PopulateList(int[] digits, int i, int max)
-        {
-            var tempList = new List<int[]>(); 
-            foreach (var num in list)
-            {
-                var ints = from n in digits
-                           where !num.Contains(n)
-                                 select n;
-                foreach (var j in ints)
-                {
-                    var temp = new int[max];
-                    for (int k = 0; k < i; k++)
-                    {
-                        temp[k] = num[k];
-                    }
-
-                    temp[i] = j;
-
-                    tempList.Add(temp);
-                }
-            }
-
-            list = tempList;
-        }
-
-        public List<int> List
-        {
-            get { return list.Select(o => MathUtils.ConvertToNumber(o)).ToList(); }
-        }
-    }
-}
+ 
