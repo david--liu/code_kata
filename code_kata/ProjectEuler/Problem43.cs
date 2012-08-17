@@ -15,7 +15,14 @@ namespace code_kata.ProjectEuler
         {
             It first_observation = () =>
             {
-                IsMatching(MathUtils.ConvertToDigits(1406357289).ToArray()).ShouldBeTrue();
+                var array = MathUtils.ConvertToDigits(1406357289).ToArray();
+                IsMatching(array,3).ShouldBeTrue();
+                IsMatching(array,4).ShouldBeTrue();
+                IsMatching(array,5).ShouldBeTrue();
+                IsMatching(array,6).ShouldBeTrue();
+                IsMatching(array,7).ShouldBeTrue();
+                IsMatching(array,8).ShouldBeTrue();
+                IsMatching(array,9).ShouldBeTrue();
             };
 
             It should_get_result = () =>
@@ -29,23 +36,21 @@ namespace code_kata.ProjectEuler
         }
 
 
-        static bool IsMatching(int[] nums)
+        static bool IsMatching(int[] nums, int index)
         {
-            if (nums.Length != 10)
+            if (index ==3 && MathUtils.ConvertToNumber(new int[3] { nums[1], nums[2], nums[3] }) % 2 != 0)
                 return false;
-            if (MathUtils.ConvertToNumber(new int[3] { nums[1], nums[2], nums[3] }) % 2 != 0)
+            if (index == 4 && MathUtils.ConvertToNumber(new int[3] { nums[2], nums[3], nums[4] }) % 3 != 0)
                 return false;
-            if (MathUtils.ConvertToNumber(new int[3] { nums[2], nums[3], nums[4] }) % 3 != 0)
+            if (index == 5 && MathUtils.ConvertToNumber(new int[3] { nums[3], nums[4], nums[5] }) % 5 != 0)
                 return false;
-            if (MathUtils.ConvertToNumber(new int[3] { nums[3], nums[4], nums[5] }) % 5 != 0)
+            if (index == 6 && MathUtils.ConvertToNumber(new int[3] { nums[4], nums[5], nums[6] }) % 7 != 0)
                 return false;
-            if (MathUtils.ConvertToNumber(new int[3] { nums[4], nums[5], nums[6] }) % 7 != 0)
+            if (index == 7 && MathUtils.ConvertToNumber(new int[3] { nums[5], nums[6], nums[7] }) % 11 != 0)
                 return false;
-            if (MathUtils.ConvertToNumber(new int[3] { nums[5], nums[6], nums[7] }) % 11 != 0)
+            if (index == 8 && MathUtils.ConvertToNumber(new int[3] { nums[6], nums[7], nums[8] }) % 13 != 0)
                 return false;
-            if (MathUtils.ConvertToNumber(new int[3] { nums[6], nums[7], nums[8] }) % 13 != 0)
-                return false;
-            if (MathUtils.ConvertToNumber(new int[3] { nums[7], nums[8], nums[9] }) % 17 != 0)
+            if (index == 9 && MathUtils.ConvertToNumber(new int[3] { nums[7], nums[8], nums[9] }) % 17 != 0)
                 return false;
 
             return true;
@@ -103,7 +108,8 @@ namespace code_kata.ProjectEuler
                         }
 
 
-                        tempList.Add(temp);
+                        if(IsMatching(temp, i))
+                            tempList.Add(temp);
                     }
                 }
 
