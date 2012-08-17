@@ -36,7 +36,7 @@ namespace code_kata.ProjectEuler
 
         }
 
-        public static bool IsPrime(int num)
+        public static bool IsPrime(long num)
         {
             if (num == 2)
                 return true;
@@ -44,8 +44,8 @@ namespace code_kata.ProjectEuler
             if (num % 2 == 0 || num == 1 || num == 0)
                 return false;
 
-            int root = (int)Math.Sqrt(num) + 1;
-            for (int i = root; i >= 2; i--)
+            long root = (long)Math.Sqrt(num) + 1;
+            for (var i = root; i >= 2; i--)
             {
                 if (num % i == 0)
                     return false;
@@ -53,6 +53,8 @@ namespace code_kata.ProjectEuler
             return true;
 
         }
+
+        
 
         public static int Factorial(int number)
         {
