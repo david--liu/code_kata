@@ -23,6 +23,12 @@ namespace code_kata.ProjectEuler
 
         }
 
+        public class when_working_backwards : concern
+        {
+            It should_get_result_much_faster = () =>
+                Utils.PrintResult(() => BruteForce2());
+        }
+
         static int BruteForce(int num, int maxPrime)
         {
             var map = new Dictionary<int, int>();
@@ -68,6 +74,35 @@ namespace code_kata.ProjectEuler
 
             var times = map.Max(x => x.Value);
             return map.First(x => x.Value == times).Key;
+        }
+
+        static int BruteForce2()
+        {
+            var primesBelow = GetPrimesBelow(4000);
+            var count = primesBelow.Count;
+            int maxSequence = 0;
+            int maxValue = 0;
+            for (int i = 0; i < count; i++)
+            {
+                int temp = 0;
+                
+                for (int j = i; j < count; j++)
+                {
+                    temp += primesBelow[j];
+                    if(temp >= 1000000)
+                        break;
+                    if(MathUtils.IsPrime(temp))
+                    {
+                        if(maxSequence < j - i + 1)
+                        {
+                            maxSequence = j - i + 1;
+                            maxValue = temp;
+                        }
+                    }
+                }
+            }
+
+            return maxValue;
         }
 
         static List<int> GetPrimesBelow(int max)
