@@ -45,9 +45,9 @@ namespace code_kata.ProjectEuler
             Console.Out.WriteLine(result);
         }
 
-        static int GetSumOfFactorial(int number)
+        static long GetSumOfFactorial(int number)
         {
-            int result = 0;
+            long result = 0;
             foreach (var i in MathUtils.ConvertToDigits(number))
             {
                 result += MathUtils.Factorial(i);
