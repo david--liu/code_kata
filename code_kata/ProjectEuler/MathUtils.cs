@@ -17,24 +17,57 @@ namespace code_kata.ProjectEuler
                 result.Add((list2.Count > i ? list2[i] : 0) + (list1.Count > i ? list1[i] : 0));
             }
 
-            for (int i = 0; i < max; i++)
-            {
-                if(result[i] >= 10)
-                {
-                    result[i] -= 10;
-                    if(i == max -1)
-                    {
-                        result.Add(1);
-                    }
-                    else
-                    {
-                        result[i + 1] += 1;
-                    }
-                }
-            }
+            FlattenList(result);
 
             return result;
 
+        }
+
+        static void FlattenList(List<int> result, bool shouldReverse = false)
+        {
+            if (shouldReverse)
+                result.Reverse();
+
+            for (int i = 0; i < result.Count; i++)
+            {
+                if (result[i] >= 10)
+                {
+                    var newDigit = result[i] / 10;
+                    result[i] %= 10;
+                    if (i == result.Count - 1)
+                    {
+                        result.Add(newDigit);
+                    }
+                    else
+                    {
+                        result[i + 1] += newDigit;
+                    }
+                }
+            }
+        }
+
+        public static List<int> Multi(List<int> list1, List<int> list2)
+        {
+            var result = new List<int>();
+
+            for (int i = list2.Count -1; i >=0 ; i--)
+            {
+                var list = new List<int>(list1);
+                for (int j = 0; j < list.Count; j++)
+                {
+                    list[j] *= list2[i];
+                }
+                FlattenList(list,true);
+                for (int j = i; j < list2.Count -1; j++)
+                {
+                    list.Insert(0,0);
+                }
+
+                result = Sum(list, result);
+            }
+
+            result.Reverse();
+            return result;
         }
 
         public static bool IsPrime2(long num)
