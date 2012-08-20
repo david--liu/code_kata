@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace code_kata.ProjectEuler
 {
@@ -88,18 +89,9 @@ namespace code_kata.ProjectEuler
             return result;
         }
 
-        public static List<int> ConvertToDigits(int number)
+        public static List<int> ConvertToDigits(double number)
         {
-            var result = new List<int>();
-            var temp = number;
-            while (temp > 0)
-            {
-                result.Add(temp - (temp / 10) * 10);
-                temp = temp/10;
-            }
-            result.Reverse();
-
-            return result;
+            return Convert.ToString(number).Select(x => Convert.ToInt32(char.GetNumericValue(x))).ToList();
         }
 
         public static int ConvertToNumber(int[] list)
