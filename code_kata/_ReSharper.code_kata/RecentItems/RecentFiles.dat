@@ -1,19 +1,6 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem29.cs" caret="2260" fromTop="40" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/d:Test/f:ConsoleInteractionTest.cs" caret="0" fromTop="0" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem9.cs" caret="0" fromTop="0" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem11.cs" caret="0" fromTop="0" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem20.cs" caret="0" fromTop="0" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem32.cs" caret="2357" fromTop="40" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem48.cs" caret="814" fromTop="23" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem47.cs" caret="758" fromTop="0" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem7.cs" caret="1556" fromTop="21" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem3.cs" caret="1441" fromTop="26" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem46.cs" caret="1127" fromTop="20" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem45.cs" caret="1588" fromTop="21" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem44.cs" caret="1744" fromTop="40" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem43.cs" caret="874" fromTop="16" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem42.cs" caret="42148" fromTop="15" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem41.cs" caret="1634" fromTop="27" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem40.cs" caret="783" fromTop="16" />
@@ -21,46 +8,59 @@
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem39.cs" caret="665" fromTop="18" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem38.cs" caret="884" fromTop="34" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem37.cs" caret="1869" fromTop="36" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem36.cs" caret="2361" fromTop="40" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem35.cs" caret="795" fromTop="14" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem34.cs" caret="793" fromTop="27" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem33.cs" caret="1699" fromTop="23" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem49.cs" caret="513" fromTop="0" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem50.cs" caret="2606" fromTop="13" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="980" fromTop="4" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="489" fromTop="21" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem53.cs" caret="1316" fromTop="38" />
     <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem52.cs" caret="896" fromTop="27" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="489" fromTop="21" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem50.cs" caret="2606" fromTop="13" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ConsoleInteraction/d:Test/f:ConsoleInteractionTest.cs" caret="0" fromTop="0" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem9.cs" caret="0" fromTop="0" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem11.cs" caret="0" fromTop="0" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem20.cs" caret="0" fromTop="0" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem43.cs" caret="874" fromTop="16" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem48.cs" caret="814" fromTop="23" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem36.cs" caret="3355" fromTop="7" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem4.cs" caret="1467" fromTop="19" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem32.cs" caret="1724" fromTop="38" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem54.cs" caret="57992" fromTop="19" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem55.cs" caret="950" fromTop="18" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="767" fromTop="17" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem25.cs" caret="1206" fromTop="17" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem56.cs" caret="322" fromTop="0" />
   </RecentFiles>
   <RecentEdits>
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem50.cs" caret="2810" fromTop="31" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem50.cs" caret="3178" fromTop="33" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem50.cs" caret="808" fromTop="20" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="193" fromTop="6" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="4196" fromTop="12" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="4196" fromTop="27" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="4167" fromTop="18" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="4196" fromTop="29" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="4196" fromTop="28" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="4196" fromTop="25" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="4196" fromTop="27" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="4196" fromTop="22" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="4196" fromTop="40" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="1783" fromTop="38" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="2034" fromTop="20" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="643" fromTop="26" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="1393" fromTop="21" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="1557" fromTop="25" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="1486" fromTop="40" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="2039" fromTop="40" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="1017" fromTop="5" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="1458" fromTop="23" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem51.cs" caret="473" fromTop="21" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem52.cs" caret="163" fromTop="6" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem52.cs" caret="636" fromTop="27" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem52.cs" caret="413" fromTop="16" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem52.cs" caret="1223" fromTop="37" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem52.cs" caret="1061" fromTop="39" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem52.cs" caret="911" fromTop="35" />
-    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem52.cs" caret="803" fromTop="24" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="3424" fromTop="20" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="3563" fromTop="32" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="3517" fromTop="22" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem55.cs" caret="1494" fromTop="22" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem55.cs" caret="2325" fromTop="28" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem55.cs" caret="2111" fromTop="18" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem55.cs" caret="430" fromTop="16" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem55.cs" caret="2019" fromTop="31" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem55.cs" caret="1950" fromTop="29" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem55.cs" caret="1790" fromTop="22" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem55.cs" caret="1462" fromTop="35" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem55.cs" caret="1197" fromTop="25" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem55.cs" caret="934" fromTop="18" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem56.cs" caret="290" fromTop="6" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="561" fromTop="1" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem56.cs" caret="2906" fromTop="24" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="1097" fromTop="10" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="1222" fromTop="14" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="1947" fromTop="39" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem56.cs" caret="2889" fromTop="36" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem56.cs" caret="1637" fromTop="20" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="1715" fromTop="26" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:MathUtils.cs" caret="767" fromTop="17" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem56.cs" caret="2766" fromTop="32" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem56.cs" caret="2554" fromTop="39" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem56.cs" caret="1729" fromTop="16" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem56.cs" caret="2120" fromTop="27" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem56.cs" caret="1509" fromTop="9" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem56.cs" caret="1503" fromTop="9" />
+    <File id="58718776-CFE8-4F47-A289-F6969700DE40/d:ProjectEuler/f:Problem56.cs" caret="1942" fromTop="10" />
   </RecentEdits>
 </RecentFiles>
