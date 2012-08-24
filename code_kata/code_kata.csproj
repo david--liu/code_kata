@@ -145,6 +145,7 @@
     <Compile Include="OverlappingRectangle\OverlappingRectangle.cs" />
     <Compile Include="OverlappingRectangle\Test\OverlappingRectangleTest.cs" />
     <Compile Include="ProjectEuler\MathUtils.cs" />
+    <Compile Include="ProjectEuler\Permutation.cs" />
     <Compile Include="ProjectEuler\Problem1.cs" />
     <Compile Include="ProjectEuler\Problem10.cs" />
     <Compile Include="ProjectEuler\Problem11.cs" />
@@ -203,6 +204,7 @@
     <Compile Include="ProjectEuler\Problem6.cs" />
     <Compile Include="ProjectEuler\Problem60.cs" />
     <Compile Include="ProjectEuler\Problem61.cs" />
+    <Compile Include="ProjectEuler\Problem62.cs" />
     <Compile Include="ProjectEuler\Problem67.cs" />
     <Compile Include="ProjectEuler\Problem7.cs" />
     <Compile Include="ProjectEuler\Problem8.cs" />
