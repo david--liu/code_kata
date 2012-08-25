@@ -34,7 +34,7 @@ namespace code_kata.ProjectEuler
                     pow++;
                 }
             }
-
+            
             return result;
         }
 
