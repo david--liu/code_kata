@@ -53,15 +53,10 @@ namespace code_kata.ProjectEuler
             return pair.Key;
         }
 
-        static bool MaxPhi(KeyValuePair<int, SortedSet<int>> keyValuePair)
-        {
-            return keyValuePair.Key == keyValuePair.Value.Aggregate(1, (current, i) => current*i);
-        }
-
         static void PopulatePrimeFactors()
         {
             primeMap = new Dictionary<int, SortedSet<int>>();
-            var primes = MathUtils.ESieve(5000000);
+            var primes = MathUtils.ESieve(3200);
             for (int i = 2; i < 10000000; i++)
             {
                 primeMap.Add(i, new SortedSet<int>());
@@ -90,7 +85,7 @@ namespace code_kata.ProjectEuler
 
         }
 
-        static int GetTotient(int num, IEnumerable<int> set)
+        public static int GetTotient(int num, IEnumerable<int> set)
         {
             int result = num;
             foreach (var prime  in set)
