@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Machine.Specifications;
 using developwithpassion.specifications.rhinomocks;
 using System.Linq;
@@ -40,9 +41,22 @@ namespace code_kata.ProjectEuler
                 }
 
                 var f = GetFactorial(i);
+                var gotvalue = false;
                 while (!map[i].ContainsKey(f) && f != i)
                 {
                     map[i].Add(f, 0);
+                    if (map.ContainsKey(f))
+                    {
+                        foreach (var pair in map[f])
+                        {
+                            if(map[i].ContainsKey(pair.Key))
+                            {
+                                break;
+                            }
+                            map[i].Add(pair.Key, 0);
+                        }
+                        break;
+                    }
                     f = GetFactorial(f);
                 }
 
