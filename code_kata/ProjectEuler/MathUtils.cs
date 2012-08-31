@@ -166,6 +166,31 @@ namespace code_kata.ProjectEuler
             return true;
         }
 
+        public static long Gcd(long a, long b)
+        {
+            long y, x;
+
+            if (a > b)
+            {
+                x = a;
+                y = b;
+            }
+            else
+            {
+                x = b;
+                y = a;
+            }
+
+            while (x % y != 0)
+            {
+                long temp = x;
+                x = y;
+                y = temp % x;
+            }
+
+            return y;
+        }
+
         public static long Factorial(int number)
         {
             if (number == 0)

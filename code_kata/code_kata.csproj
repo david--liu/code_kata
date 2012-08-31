@@ -144,6 +144,7 @@
     <Compile Include="MagnetoEffect\Test\MagnetoEffectTest.cs" />
     <Compile Include="OverlappingRectangle\OverlappingRectangle.cs" />
     <Compile Include="OverlappingRectangle\Test\OverlappingRectangleTest.cs" />
+    <Compile Include="ProjectEuler\Problem73.cs" />
     <Compile Include="ProjectEuler\MathUtils.cs" />
     <Compile Include="ProjectEuler\Permutation.cs" />
     <Compile Include="ProjectEuler\Problem1.cs" />
